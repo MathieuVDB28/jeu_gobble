@@ -1,0 +1,16 @@
+#game { 
+z-index: 0; 
+} 
+#container { 
+padding-top:50px; 
+margin:0 auto; 
+width:480px; 
+} 
+#info { 
+z-index: 1;//Le canvas info passe au dessus du canvas game 
+} 
+canvas 
+{ 
+border:2px solid blue; 
+position: absolute; 
+} 
